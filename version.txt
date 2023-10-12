@@ -1,3 +1,7 @@
 0.1
 
 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
+
+docker run -e SERVER_URL="<url to TeamCity server>"  \
+    -v <path to agent config folder>:/data/teamcity_agent/conf  \
+    jetbrains/teamcity-agent
